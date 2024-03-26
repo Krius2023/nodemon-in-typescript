@@ -17,13 +17,13 @@ Using nodemon in developing typescript project
 
 This command will generate JavaScript files in the `dist` folder according to the settings in `tsconfig.json` file.
 
-4. Run Watch Mode:
+4. Open one terminal and run the command
 
 `npm run watch`
 
 This command will watch for changes in TypeScript files and automatically transpile them to JavaScript whenever they are modified.
 
-5. Run Development Server:
+5. Open another terminal and run the command
 
 `npm run dev`
 
