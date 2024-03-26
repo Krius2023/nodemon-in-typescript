@@ -2,30 +2,39 @@
 Using nodemon in developing typescript project
 
 
+**Clone Repository**
 
-1. Clone Repository:
+```
+git clone https://github.com/Krius2023/nodemon-in-typescript.git
+```
 
-`git clone https://github.com/Krius2023/nodemon-in-typescript.git`
+**Install Dependencies**
 
-2. Install Dependencies:
+```
+npm install
+```
 
-`npm install`
+**Transpile TypeScript Files**
 
-3. Transpile TypeScript Files:
-
-`tsc`
+```
+tsc
+```
 
 This command will generate JavaScript files in the `dist` folder according to the settings in `tsconfig.json` file.
 
-4. Open one terminal and run the command
+**Open one terminal and run the command**
 
-`npm run watch`
+```
+npm run watch
+```
 
 This command will watch for changes in TypeScript files and automatically transpile them to JavaScript whenever they are modified.
 
-5. Open another terminal and run the command
+**Open another terminal and run the command**
 
-`npm run dev`
+```
+npm run dev
+```
 
 This command will start the development server, allowing to test the application. Ensure the server is configured to serve files from the `dist` folder, where the compiled JavaScript files are located.
 
